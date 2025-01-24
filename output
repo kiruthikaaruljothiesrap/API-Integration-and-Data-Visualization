@@ -1,0 +1,17 @@
+{
+  "name": "London",
+  "main": {
+    "temp": 15.2,
+    "humidity": 72,
+    "pressure": 1012
+  },
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10d"
+    }
+  ],
+  "wind": {
+    "speed": 4.6
+  }
+}
