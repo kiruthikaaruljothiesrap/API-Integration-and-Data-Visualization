@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+
+# Example visualization of temperature and humidity
+def plot_weather_data(data):
+    labels = ["Temperature (°C)", "Humidity (%)"]
+    values = [data["main"]["temp"], data["main"]["humidity"]]
+
+    plt.bar(labels, values, color=["blue", "green"])
+    plt.title(f"Weather Data for {data['name']}")
+    plt.ylabel("Values")
+    plt.show()
+
+if data:
+    plot_weather_data(data)
